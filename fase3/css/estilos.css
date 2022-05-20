@@ -1,7 +1,6 @@
 header{
     background: #00FFAB;
     text-align: center;
-
 }
 nav{
     background: #14C38E;
@@ -11,7 +10,6 @@ section{
     background:#B8F1B0;
     grid-column:2/5;
 }
-
 aside{
     background:#E3FCBF;
     grid-column: 1/2;
@@ -23,10 +21,23 @@ main{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr ;
 }
-#tm1{
-    color: red;
-    font-size: 40px;
+#p1{
+    font-family: 'arial', Times, serif;
+    font-size: 18px;
+    
+}
+#h21{
     text-align: center;
+}
+.centrar{
+    margin: 10px auto;
+    display: block;
+    width: 500px;
+    height: 400px;
+}
+img{
+    margin: 10px auto;
+    display: block;
 }
 #tm2{
     color: red;
