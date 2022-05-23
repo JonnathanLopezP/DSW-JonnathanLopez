@@ -32,8 +32,14 @@ main{
 .centrar{
     margin: 10px auto;
     display: block;
-    width: 500px;
-    height: 400px;
+    width: 400px;
+    height: 300px;
+}
+.ubicar{
+    margin: 10px auto;
+    display: block;
+    width: 800px;
+    height: 600px;
 }
 img{
     margin: 10px auto;
@@ -54,10 +60,18 @@ img{
     font-size: 40px;
     text-align: center;
 }
+.foto{
+    margin: 10px auto;
+    display: block;
+    width: 200px;
+    height: 200px;
+}
 #aut{
-    color: red;
+    color: black;
+    font-family: 'Arial', Times, serif;
     font-size: 40px;
-    text-align: center;
+    text-align: justify;
+    
 }
 .menu{
     padding: 0px 20px;
