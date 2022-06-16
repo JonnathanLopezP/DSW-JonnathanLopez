@@ -1,0 +1,112 @@
+header{
+    background: #00FFAB;
+    text-align: center;
+}
+nav{
+    background: #14C38E;
+    color: white;
+}
+section{
+    background:#B8F1B0;
+    grid-column:2/5;
+}
+aside{
+    background:#E3FCBF;
+    grid-column: 1/2;
+}
+footer{
+    background: #00FFAB;
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+}
+#p1{
+    font-family: 'arial', Times, serif;
+    font-size: 18px;
+    
+}
+#h21{
+    text-align: center;
+}
+.centrar{
+    margin: 10px auto;
+    display: block;
+    width: 400px;
+    height: 300px;
+}
+.ubicar{
+    margin: 10px auto;
+    display: block;
+    width: 800px;
+    height: 600px;
+}
+img{
+    margin: 10px auto;
+    display: block;
+}
+#tm2{
+    color: red;
+    font-size: 40px;
+    text-align: center;
+}
+#rc1{
+    color: red;
+    font-size: 40px;
+    text-align: center;
+}
+#rc2{
+    color: red;
+    font-size: 40px;
+    text-align: center;
+}
+.foto{
+    margin: 10px auto;
+    display: block;
+    width: 200px;
+    height: 200px;
+}
+#aut{
+    color: black;
+    font-family: 'Arial', Times, serif;
+    font-size: 40px;
+    text-align: justify;
+    
+}
+.menu{
+    padding: 0px 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+.menu>li{
+    float: left;
+}
+.menu li a{
+    background-color: #14C38E;
+    color: white;
+    text-decoration: none;
+    padding: 10px 40px;
+    display: block;
+}
+.menu li a:hover{
+    background-color: rgb(13, 217, 231);
+}
+.menu li ul {
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    min-width: 140px;
+}
+.menu li:hover >ul {
+    display: block;
+}
+.menu li ul li{
+    position: relative;
+}
+.menu li ul li ul{
+    right: 140px;
+}
